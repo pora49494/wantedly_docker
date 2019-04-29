@@ -2,15 +2,16 @@
 
 ### ファイルの説明
 ---
-|-`readme.md` ： このファイル 
-|-`init.sh` ： 課題のサーバーを立ち上がるスクリプト
-|-`docker-compose.yml` ： docker compose file　
-|-go_db 
-    |- `db_setup.sh` : DBの必要な設定ファイル
-    |- `Dockerfile` : Postgres環境を作るDockerfile
-|-go_web
-    |- `main.go` : golangで実装したAPIファイル
-    |- `Dockerfile` : golang環境を作るDockerfile
+
+- `readme.md` ： このファイル
+- `init.sh` ： 課題のサーバーを立ち上がるスクリプト
+- `docker-compose.yml` ： docker compose file　
+- go_db 
+  - `db_setup.sh` : DBの必要な設定ファイル
+  - `Dockerfile` : Postgres環境を作るDockerfile
+- go_web
+  - `main.go` : golangで実装したAPIファイル
+  - `Dockerfile` : golang環境を作るDockerfile
 
 ### init.sh
 ---
